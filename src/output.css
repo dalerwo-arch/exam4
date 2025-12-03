@@ -9,10 +9,14 @@
       "Courier New", monospace;
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-500: oklch(55.1% 0.027 264.364);
+    --color-neutral-400: oklch(70.8% 0 0);
     --color-white: #fff;
     --spacing: 0.25rem;
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
     --font-weight-medium: 500;
     --font-weight-bold: 700;
+    --font-weight-black: 900;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -169,11 +173,44 @@
   .m-auto {
     margin: auto;
   }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
+  .mb-2\.5 {
+    margin-bottom: calc(var(--spacing) * 2.5);
+  }
   .mb-9 {
     margin-bottom: calc(var(--spacing) * 9);
   }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
+  }
+  .mb-25 {
+    margin-bottom: calc(var(--spacing) * 25);
+  }
+  .mb-\[3px\] {
+    margin-bottom: 3px;
+  }
+  .mb-\[6px\] {
+    margin-bottom: 6px;
+  }
+  .mb-\[25px\] {
+    margin-bottom: 25px;
+  }
+  .mb-\[26px\] {
+    margin-bottom: 26px;
+  }
+  .mb-\[30px\] {
+    margin-bottom: 30px;
+  }
+  .mb-\[36px\] {
+    margin-bottom: 36px;
+  }
+  .mb-\[37px\] {
+    margin-bottom: 37px;
+  }
+  .mb-\[46px\] {
+    margin-bottom: 46px;
   }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
@@ -198,6 +235,9 @@
   }
   .h-5 {
     height: calc(var(--spacing) * 5);
+  }
+  .h-7 {
+    height: calc(var(--spacing) * 7);
   }
   .h-10 {
     height: calc(var(--spacing) * 10);
@@ -226,6 +266,12 @@
   .w-\[40px\] {
     width: 40px;
   }
+  .w-\[53px\] {
+    width: 53px;
+  }
+  .w-\[74px\] {
+    width: 74px;
+  }
   .w-\[76\] {
     width: 76;
   }
@@ -237,6 +283,9 @@
   }
   .w-\[80\] {
     width: 80;
+  }
+  .w-\[84px\] {
+    width: 84px;
   }
   .w-\[86px\] {
     width: 86px;
@@ -353,6 +402,9 @@
   .border-\[\#6F73EE\] {
     border-color: #6F73EE;
   }
+  .border-white {
+    border-color: var(--color-white);
+  }
   .border-b-gray-100 {
     border-bottom-color: var(--color-gray-100);
   }
@@ -365,6 +417,16 @@
   .bg-\[\#F4F7FB\] {
     background-color: #F4F7FB;
   }
+  .bg-transparent {
+    background-color: transparent;
+  }
+  .bg-white {
+    background-color: var(--color-white);
+  }
+  .from-neutral-400 {
+    --tw-gradient-from: var(--color-neutral-400);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -374,14 +436,29 @@
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
+  .px-\[25px\] {
+    padding-inline: 25px;
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
+  }
+  .py-\[15\] {
+    padding-block: 15;
+  }
+  .py-\[15px\] {
+    padding-block: 15px;
+  }
+  .pt-5 {
+    padding-top: calc(var(--spacing) * 5);
   }
   .pr-\[328\] {
     padding-right: 328;
@@ -392,6 +469,13 @@
   .pl-\[190px\] {
     padding-left: 190px;
   }
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
+  }
   .text-\[12px\] {
     font-size: 12px;
   }
@@ -400,6 +484,13 @@
   }
   .text-\[16px\] {
     font-size: 16px;
+  }
+  .text-\[35px\] {
+    font-size: 35px;
+  }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -412,6 +503,9 @@
   .text-\[\#5D6C7B\] {
     color: #5D6C7B;
   }
+  .text-\[\#6F73EE\] {
+    color: #6F73EE;
+  }
   .text-\[\#282739\] {
     color: #282739;
   }
@@ -420,6 +514,12 @@
   }
   .text-\[16\] {
     color: 16;
+  }
+  .text-\[whi\] {
+    color: whi;
+  }
+  .text-\[white\] {
+    color: white;
   }
   .text-white {
     color: var(--color-white);
@@ -511,6 +611,48 @@
   inherits: false;
   initial-value: solid;
 }
+@property --tw-gradient-position {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-gradient-from {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+@property --tw-gradient-via {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+@property --tw-gradient-to {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+@property --tw-gradient-stops {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-gradient-via-stops {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-gradient-from-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@property --tw-gradient-via-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 50%;
+}
+@property --tw-gradient-to-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
@@ -519,6 +661,15 @@
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
+      --tw-gradient-position: initial;
+      --tw-gradient-from: #0000;
+      --tw-gradient-via: #0000;
+      --tw-gradient-to: #0000;
+      --tw-gradient-stops: initial;
+      --tw-gradient-via-stops: initial;
+      --tw-gradient-from-position: 0%;
+      --tw-gradient-via-position: 50%;
+      --tw-gradient-to-position: 100%;
       --tw-font-weight: initial;
     }
   }

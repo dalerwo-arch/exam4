@@ -6,3 +6,18 @@
     background-repeat: no-repeat;
     margin-left: 20px;
 }
+
+.background2 {
+    background-image: url(./image/Mask\ Group\ \(9\).png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-top: 32px;
+    padding-bottom: 33px;
+}
+.background3 {
+    background-image: url(./image/Mask\ Group\ \(10\).png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-top: 32px;
+    padding-bottom: 33px;
+}

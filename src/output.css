@@ -22,6 +22,8 @@
     --font-weight-medium: 500;
     --font-weight-bold: 700;
     --font-weight-black: 900;
+    --radius-xs: 0.125rem;
+    --radius-xl: 0.75rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -229,11 +231,20 @@
   .mb-25 {
     margin-bottom: calc(var(--spacing) * 25);
   }
+  .mb-\[1\] {
+    margin-bottom: 1;
+  }
   .mb-\[3px\] {
     margin-bottom: 3px;
   }
   .mb-\[6px\] {
     margin-bottom: 6px;
+  }
+  .mb-\[14px\] {
+    margin-bottom: 14px;
+  }
+  .mb-\[15px\] {
+    margin-bottom: 15px;
   }
   .mb-\[25px\] {
     margin-bottom: 25px;
@@ -258,6 +269,9 @@
   }
   .mb-\[57px\] {
     margin-bottom: 57px;
+  }
+  .mb-\[100\] {
+    margin-bottom: 100;
   }
   .mb-\[101px\] {
     margin-bottom: 101px;
@@ -409,8 +423,20 @@
   .w-\[603px\] {
     width: 603px;
   }
+  .w-\[606px\] {
+    width: 606px;
+  }
   .w-\[650px\] {
     width: 650px;
+  }
+  .w-\[656px\] {
+    width: 656px;
+  }
+  .w-\[848\] {
+    width: 848;
+  }
+  .w-\[848px\] {
+    width: 848px;
   }
   .w-\[px\] {
     width: px;
@@ -472,8 +498,14 @@
   .gap-25 {
     gap: calc(var(--spacing) * 25);
   }
+  .gap-30 {
+    gap: calc(var(--spacing) * 30);
+  }
   .gap-\[30px\] {
     gap: 30px;
+  }
+  .gap-\[78px\] {
+    gap: 78px;
   }
   .gap-\[626\] {
     gap: 626;
@@ -495,6 +527,12 @@
   }
   .rounded-\[300px\] {
     border-radius: 300px;
+  }
+  .rounded-xl {
+    border-radius: var(--radius-xl);
+  }
+  .rounded-xs {
+    border-radius: var(--radius-xs);
   }
   .rounded-tr-\[5\] {
     border-top-right-radius: 5;
@@ -593,6 +631,12 @@
   .p-3 {
     padding: calc(var(--spacing) * 3);
   }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
+  }
+  .p-8 {
+    padding: calc(var(--spacing) * 8);
+  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -607,6 +651,15 @@
   }
   .px-\[25px\] {
     padding-inline: 25px;
+  }
+  .px-\[27px\] {
+    padding-inline: 27px;
+  }
+  .px-\[28\] {
+    padding-inline: 28;
+  }
+  .px-\[28px\] {
+    padding-inline: 28px;
   }
   .py-1\.5 {
     padding-block: calc(var(--spacing) * 1.5);
@@ -631,6 +684,9 @@
   }
   .py-\[15px\] {
     padding-block: 15px;
+  }
+  .py-\[30px\] {
+    padding-block: 30px;
   }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);

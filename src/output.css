@@ -332,8 +332,14 @@
   .w-150 {
     width: calc(var(--spacing) * 150);
   }
+  .w-160 {
+    width: calc(var(--spacing) * 160);
+  }
   .w-170 {
     width: calc(var(--spacing) * 170);
+  }
+  .w-180 {
+    width: calc(var(--spacing) * 180);
   }
   .w-200 {
     width: calc(var(--spacing) * 200);
@@ -373,6 +379,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
   }
   .gap-1 {
     gap: calc(var(--spacing) * 1);

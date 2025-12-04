@@ -13,8 +13,8 @@
 
     <div>
 
-        <div class="w-[86%] m-auto flex items-center justify-between p-5">
-            <div class="flex items-center gap-12">
+        <div class="w-full md:w-[86%] m-auto flex items-center md:justify-between p-5">
+            <div class="hidden md:flex items-center gap-12">
                 <p class="text-[#5D6C7B] hover:text-red-500">Сервис</p>
                 <p class="text-[#5D6C7B] hover:text-red-500">Сотрудничество</p>
                 <p class="text-[#5D6C7B] hover:text-red-500">Заказать звонок</p>
@@ -26,21 +26,23 @@
                 </div>
             </div>
 
-            <div class="flex gap-5 items-center">
+            <div class="md:flex hidden gap-5 items-center ">
                 <b class="text-[#282739] hover:text-red-500">+7 (800) 505-54-61</b>
                 <img src="./Group 1659.png" alt="" class="w-[18px] h-[18px]">
             </div>
         </div>
-        <hr><br>
+        <div class="md:inline hidden">
+            <hr><br>
+        </div>
 
-        <div class="w-[86%] m-auto flex items-center justify-between p-5">
+        <div class="w-[96%] md:w-[86%] m-auto flex items-center justify-between p-5">
             <img src="./Kugoo.png" alt="" class="w-[116px] h-[40px]">
 
             <button
-                class="bg-[#6F73EE] w-[114px] h-[40px] rounded-[5px] border-none flex items-center justify-center gap-2.5 text-white"><img
+                class="bg-[#6F73EE] w-[114px] h-[40px] rounded-[5px] border-none hidden md:flex items-center justify-center gap-2.5 text-white"><img
                     src="./Line 4.png" alt="" class="w-[13px] h-[3px]">Каталог</button>
 
-            <div class="flex w-[600px] h-[40px] border-[#6F73EE] items-center gap-5 border-2 rounded-[7px]">
+            <div class="md:flex hidden w-[600px] h-[40px] border-[#6F73EE] items-center gap-5 border-2 rounded-[7px]">
 
                 <select
                     class="w-[76px] p-1 bg-[#F4F7FB] hover:bg-black hover:text-white rounded-[5px] border-none outline-none">
@@ -68,7 +70,7 @@
             </div>
         </div>
 
-        <div class="w-full bg-[#F4F7FB] flex items-center gap-12 justify-center p-2 mt-[35px] mb-[30px]">
+        <div class="w-full bg-[#F4F7FB] md:flex hidden items-center gap-12 justify-center p-2 mt-[35px] mb-[30px]">
             <p class="text-[#282739] hover:text-red-500">О магазине</p>
             <p class="text-[#282739] hover:text-red-500">Доставка и оплата</p>
             <button class="bg-[#6F73EE] w-[180px] h-[30px] rounded-[300px] text-white">Доступна рассрочка</button>
@@ -83,13 +85,13 @@
     </div>
 
 
-    <div class="w pt-[60px] pl-[130px]">
-        <h1 class="text-5xl text-white">Ремонт и обслуживание <br>
+    <div class="w md:pt-[60px] md:pl-[130px] pl-[10px]">
+        <h1 class="text-3xl md:text-5xl text-white">Ремонт и обслуживание <br>
             товаров Kugoo Kirin
         </h1><br>
         <p class="text-white">в фирменных сервисых центрах</p><br><br>
 
-        <div class="flex gap-5 items-center text-white">
+        <div class="md:flex gap-5 items-center text-white">
             <div class="flex gap-2.5 items-center">
                 <div>
                     <div class="bg-[#FFFFFF33] w-[40px] h-[40px] rounded-[5px] flex justify-center items-center">
@@ -100,7 +102,7 @@
                 <p>Сервисные центры в Москве, <br>
                     Санкт-Петербурге и Краснодаре
                 </p>
-            </div>
+            </div><br>
 
             <div class="flex gap-2.5 items-center">
                 <div>
@@ -114,7 +116,7 @@
                 </p>
             </div>
 
-            <div class="flex gap-2.5 items-center">
+            <div class="hidden md:flex gap-2.5 items-center">
                 <div>
                     <div class="bg-[#FFFFFF33] w-[40px] h-[40px] rounded-[5px] flex justify-center items-center">
                         <p></p>
@@ -133,12 +135,12 @@
 
     <div class="mt-[100px]">
 
-        <h1 class="text-4xl text-center font-black">Проведем диагностику <br>
+        <h1 class="text-3xl md:text-4xl text-center font-black">Проведем диагностику <br>
             и отремонтируем любую неисправность
         </h1>
 
-        <div class="flex items-center p-5 justify-center gap-10 mt-[66px]">
-            <div class="text-end">
+        <div class="md:flex items-center p-5 justify-center gap-10 mt-[66px]">
+            <div class="text-center md:text-end">
                 <h3 class="text-2xl font-black">Ремонт от 1 дня</h3><br>
                 <p>Устраним любую неисправность. Обычно <br>
                     делаем это за 1-3 дня, если ремонт <br>
@@ -157,11 +159,11 @@
                     имеем в наличии все необходимые новые <br>
                     комплектующие для ремонта.
                 </p><br>
-            </div>
+            </div><br>
 
-            <img src="./Mask Group (7).png" alt="" class="w-[442px] h-[442px]">
+            <img src="./Mask Group (7).png" alt="" class="w-[442px] h-[442px]"><br>
 
-            <div class="text-start">
+            <div class="text-center md:text-start">
                 <h3 class="text-2xl font-black">гарантия</h3><br>
                 <p>14 дней на ремонт
                 </p><br><br><br><br>
@@ -178,11 +180,11 @@
 
 
     <div class="mt-[98px]">
-        <h1 class="text-4xl text-center font-black">Стоимость ремонта</h1><br>
+        <h1 class="text-3xl md:text-4xl text-center font-black">Стоимость ремонта</h1><br>
         <p class="text-center"> Точную стоимость работ вам озвучит специалист сервисного центра после диагностики. <br>
             Примерные цены на ремонт без учета запчастей смотрите ниже.
         </p><br>
-        <div class="flex justify-center gap-5 items-center">
+        <div class="md:flex hidden justify-center gap-5 items-center">
             <button
                 class="w-[171px] h-[53px] rounded-[5px] bg-[#F4F7FB] hover:border-[#6F73EE] hover:border-2 hover:bg-transparent hover:text-[#6F73EE]">Электросамокаты</button>
             <button
@@ -193,17 +195,17 @@
                 class="w-[194px] h-[53px] rounded-[5px] bg-[#F4F7FB] hover:border-[#6F73EE] hover:border-2 hover:bg-transparent hover:text-[#6F73EE]">Электровелосипеды</button>
         </div>
 
-        <div class="w-[80%] m-auto flex justify-between gap-5 mt-[87px]">
+        <div class="w-[80%] m-auto md:flex justify-between gap-5 mt-[87px]">
 
-            <div class="bg-[#F4F7FB] w-[32%] h-[400px] rounded-2xl">
+            <div class="bg-[#F4F7FB] w-full md:w-[32%] h-[400px] rounded-2xl">
                 <p class="text-[#6F73EE] bg-white p-2.5 border-l-2 mt-[20px]">Kugoo Kirin M4</p><br>
                 <p class="p-2.5 ">Kugoo Kirin S2</p><br>
                 <p class="p-2.5 ">Kugoo Kirin M5</p><br>
                 <p class="p-2.5 ">Kugoo Kirin M7</p><br>
                 <p class="p-2.5 ">Kugoo Kirin M8</p>
-            </div>
+            </div><br>
 
-            <div class="w-[66%] h-[400px] border-2 rounded-2xl border-[#EAEBED]">
+            <div class="w-full md:w-[66%] h-[400px] border-2 rounded-2xl border-[#EAEBED]">
 
                 <div class="border-b-2 border-[#EAEBED] p-4 flex justify-between items-center">
                     <p>Замена/установка контроллера</p>
@@ -239,7 +241,7 @@
     </div>
 
 
-    <div class="w-[96%] m-auto bg-[#539DFF] rounded-2xl h-[420px] mt-[100px] flex items-center justify-center gap-14">
+    <div class="w-[96%] m-auto bg-[#539DFF] rounded-2xl h-[420px] mt-[100px] md:flex hidden items-center justify-center gap-14">
         <img src="./Zoom UI.png" alt="" class="w-[550px] h-[300px]">
 
         <div>
@@ -255,13 +257,13 @@
     </div>
 
 
-    <div class="grid grid-cols-2 grid-rows-2 mt-[101px] w-[96%] m-auto md:gap-10">
+    <div class="grid md:grid-cols-2 grid-cols-1 grid-rows-2 mt-[101px] w-[96%] gap-5 m-auto md:gap-10">
         <div>
             <img src="./Mask Group (8).png" alt="" class="w-full h-[500px]">
         </div>
 
         <div>
-            <h3 class="text-3xl font-black">Сделаем гидроизоляцию <br>
+            <h3 class="text-2xl md:text-3xl font-black">Сделаем гидроизоляцию <br>
                 электросамоката</h3><br>
             <p>которая позволит вам кататься в любую погоду</p><br>
             <p>Гидроизоляция – это защита от проникновения воды. Электросамокат <br>
@@ -331,7 +333,7 @@
 
 
     <div class="mt-[100px]">
-        <h1 class="text-4xl text-center font-black">Стоимость гидроизоляции и настройки</h1><br>
+        <h1 class="text-2xl md:text-4xl text-center font-black">Стоимость гидроизоляции и настройки</h1><br>
         <p class="text-center">Для версии MAX и VIP гидроизоляция и настройка — бесплатно</p><br>
         <div class="flex justify-center gap-5 items-center">
             <button
@@ -339,12 +341,12 @@
             <button
                 class="w-[123px] h-[53px] rounded-[5px] p-2 bg-[#F4F7FB] hover:border-[#6F73EE] hover:border-2 hover:bg-transparent hover:text-[#6F73EE]">Гидроизоляция</button>
             <button
-                class="w-[250px] h-[53px] rounded-[5px] p-2 bg-[#F4F7FB] hover:border-[#6F73EE] hover:border-2 hover:bg-transparent hover:text-[#6F73EE]">Гидроизоляция
+                class="md:inline hidden w-[250px] h-[53px] rounded-[5px] p-2 bg-[#F4F7FB] hover:border-[#6F73EE] hover:border-2 hover:bg-transparent hover:text-[#6F73EE]">Гидроизоляция
                 + настройка</button>
         </div>
 
-        <div class="w-[80%] m-auto flex justify-between mt-[70px]">
-            <div class="w-[48%]">
+        <div class="w-[80%] m-auto md:flex justify-between mt-[70px]">
+            <div class="w-full md:w-[48%]">
                 <div class="flex items-center justify-between border-[#EAEBED] border-b-2 py-5">
                     <p class="text-[#282739]">Kogoo S3</p>
                     <p>2 790 ₽</p>
@@ -389,9 +391,9 @@
                     <p class="text-[#282739]">Kogoo C1</p>
                     <p>2 790 ₽</p>
                 </div>
-            </div>
+            </div><br>
 
-            <div class="w-[48%]">
+            <div class="w-full md:w-[48%]">
                 <div class="flex items-center justify-between border-[#EAEBED] border-b-2 py-5">
                     <p class="text-[#282739]">Kogoo M2</p>
                     <p>2 790 ₽</p>
@@ -445,10 +447,10 @@
     </div>
 
 
-    <div class="w-[96%] ml-[4%] mt-[100px] flex pl-[10%] justify-between items-center bg-[#F4F7FB]">
+    <div class="w-[96%] md:ml-[4%] mt-[100px] md:flex pl-[10%] md:justify-between items-center bg-[#F4F7FB]">
 
         <div>
-            <h1 class="text-5xl">Заберем ваш самокат для ремонта <br>
+            <h1 class="text-3xl md:text-5xl">Заберем ваш самокат для ремонта <br>
                 и вернем обратно</h1><br>
             <p>Доставка электросамокатов в/из сервисного центра курьером в Москве.</p><br><br>
 
@@ -467,14 +469,14 @@
 
             <button class="bg-[#6F73EE] w-[176px] h-[53px] rounded-[5px] text-white">Заказать доставку</button>
         </div>
-        <img src="./дрон 1.png" alt="">
+        <img src="./дрон 1.png" alt="" class="md:inline hidden">
     </div>
 
     <div class="mt-[100px]">
-        <h1 class="text-4xl text-center font-black">Команда сервисного центра</h1>
+        <h1 class="text-2xl md:text-4xl text-center font-black">Команда сервисного центра</h1>
 
-        <div class="w-[80%] m-auto flex justify-around mt-[50px]">
-            <div class="w-[48%] border-[#EAEBED] border-2 rounded-[10px] flex items-center gap-10 p-2.5">
+        <div class="w-[80%] m-auto md:flex justify-around mt-[50px]">
+            <div class="w-full md:w-[48%] border-[#EAEBED] border-2 rounded-[10px] flex items-center gap-10 p-2.5">
                 <img src="./image 1493.png" alt="" class="w-[52px] h-[52px]">
                 <p>Специалисты сервисного центра подготавливают самокаты <br>
                     к отправке вам, проводят техническое обслуживание, <br>
@@ -482,7 +484,7 @@
                 </p>
             </div>
 
-            <div class="w-[48%] border-[#EAEBED] border-2 rounded-[10px] flex items-center gap-10 p-2.5">
+            <div class="w-full md:w-[48%] border-[#EAEBED] border-2 rounded-[10px] flex items-center gap-10 p-2.5">
                 <img src="./image 641.png" alt="" class="w-[52px] h-[52px]">
                 <p>Консультант сервисного центра сопровождает вас <br>
                     на протяжении всего времени эксплуатации и помогает <br>
@@ -562,12 +564,12 @@
 
     <div class="mt-[100px]">
 
-        <div class="flex justify-between items-center w-[80%] m-auto">
-            <h1 class="text-4xl font-black">Посмотрите <br>
+        <div class="md:flex justify-between items-center w-[80%] m-auto">
+            <h1 class="text-2xl md:text-4xl font-black">Посмотрите <br>
                 на процесс работы
-            </h1>
+            </h1><br>
 
-            <div class="flex items-center w-[400px] gap-5 bg-[#6F73EE] rounded-[5px] text-white p-2.5">
+            <div class="flex items-center w-full md:w-[400px] gap-5 bg-[#6F73EE] rounded-[5px] text-white p-2.5">
                 <img src="./image 911.png" alt="" class="w-[46px] h-[46px]">
                 <div>
                     <p>В среднем</p>
@@ -579,21 +581,21 @@
 
         <div class="w-[96%] m-auto gap-5 mt-[43px]">
 
-            <div class="flex gap-5">
-                <div class="w-[36%] h-[480px]">
+            <div class="md:flex gap-5">
+                <div class="w-full md:w-[36%] h-[480px]">
                     <img src="./Mask Group (14).png" alt="" class="w-full h-[480px]">
-                </div>
+                </div><br>
 
-                <div class="w-[28%] h-[480px]">
+                <div class="w-full md:w-[28%] h-[480px]">
                     <img src="./Mask Group (15).png" alt="" class="w-full h-[480px]">
-                </div>
+                </div><br>
 
-                <div class="w-[36%] h-[480px]">
+                <div class="w-full md:w-[36%] h-[480px]">
                     <img src="./Mask Group (16).png" alt="" class="w-full h-[480px]">
                 </div>
             </div><br>
 
-            <div class="flex gap-5">
+            <div class="hidden md:flex gap-5">
                 <div class="w-[36%] h-[350px]">
                     <img src="./Mask Group (17).png" alt="" class="w-full h-[350px]">
                 </div>
@@ -615,7 +617,7 @@
             покупателей
         </h1>
 
-        <div class="w-[50%] m-auto mt-[60px]">
+        <div class="w-[80%] md:w-[50%] m-auto mt-[60px]">
 
             <div class="flex justify-between items-center border-[#EAEBED] border-b-2 py-5">
                 <b>Есть ли гарантия на ремонт?</b>
@@ -681,7 +683,7 @@
     <div class="mt-[100px]">
         <h1 class="text-4xl text-center font-black">Адреса сервисных центров</h1>
 
-        <div class="w-[96%] bg-[#F4F7FB] m-auto flex justify-around  py-10 rounded-2xl mt-[50px]">
+        <div class="w-[96%] bg-[#F4F7FB] m-auto md:flex md:justify-around py-10 rounded-2xl mt-[50px] pl-[20px]">
 
             <div>
                 <h3 class="text-2xl font-black">Москва</h3><br>
@@ -703,7 +705,7 @@
                         прохождения через пропускной пункт
                     </p>
                 </div>
-            </div>
+            </div><br>
 
             <div>
                 <h3 class="text-2xl font-black">Санкт-Петербург</h3><br>
@@ -719,7 +721,7 @@
                     <img src="./call 1.png" alt="" class="w-[18px] h-[18px]">
                     <b>+7 (499) 350-76-92</b>
                 </div><br>
-            </div>
+            </div><br>
 
             <div>
                 <h3 class="text-2xl font-black">Краснодар</h3><br>
@@ -735,6 +737,129 @@
                     <img src="./call 1.png" alt="" class="w-[18px] h-[18px]">
                     <b>+7 (499) 350-76-92</b>
                 </div><br>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w-full bg-[#6F73EE] md:py-5 mt-[100px] md:flex justify-center gap-12 items-center p-5">
+        <h1 class="text-2xl text-white">Оставьте свою почту и станьте первым, <br>
+            кто получит скидку на новые самокаты
+        </h1><br>
+
+        <div class="md:flex gap-2">
+            <input type="email" placeholder="Введите Ваш email"
+                class="bg-[#FFFFFF33] border-none outline-none w-full md:w-[400px] p-5 rounded-[5px] h-[53px]"><br><br>
+
+            <button
+                class="text-[#6F73EE] bg-[#FFFFFF] w-full md:w-[140px] h-[53px] rounded-[5px] hover:bg-red-500 hover:text-white">Подписаться</button>
+        </div>
+    </div>
+
+    <div class="w-full bg-[#F4F7FB]">
+
+        <div class="md:flex hidden w-[80%] m-auto justify-around pt-[50px]">
+
+            <div class="flex items-center gap-14">
+                <div>
+                    <b>Каталог товаров</b><br><br>
+                    <p>Электросамокаты</p><br>
+                    <p>Электроскутеры</p><br>
+                    <p>Электровелосипеды</p><br>
+                    <p>Электровелосипеды</p>
+                </div>
+
+                <div>
+                    <b>Покупателям</b><br><br>
+                    <p>Сервисный центр</p><br>
+                    <p>Доставка и оплата</p><br>
+                    <p>Рассрочка</p><br>
+                    <p>Тест-драйв</p>
+                </div>
+
+                <div>
+                    <b></b><br><br>
+                    <p>Блог</p><br>
+                    <p>Сотрудничество</p><br>
+                    <p>Контакты</p><br>
+                    <p>Акции</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex gap-14">
+                    <div>
+                        <b>Контакты</b><br><br>
+                        <p>Call-центр</p>
+                        <b>+7 (800) 505-54-61</b>
+                        <p>Пн-Вс 10:00 - 20:00</p>
+                    </div>
+
+                    <div>
+                        <b></b><br><br>
+                        <p>Call-центр</p>
+                        <b>+7 (800) 505-54-61</b>
+                        <p>Пн-Вс 10:00 - 20:00</p>
+                    </div>
+                    <p class="text-[#6F73EE]">Заказать звонок</p>
+                </div><br>
+
+
+                <div class="flex gap-14">
+                    <div>
+                        <p>Магазин в Москве <br>
+                            ул. Ткацкая, 5 стр. 16
+                        </p>
+                        <p class="text-[#5D6C7B]">+7 (499) 406 15 87</p>
+                    </div>
+
+                    <div>
+                        <p>Магазин в Санкт- <br>
+                            Петербурге <br>
+                            ул. Фрунзе, 2
+                        </p>
+                        <p class="text-[#5D6C7B]">+7 (499) 406 15 87</p>
+                    </div>
+
+                    <div>
+                        <p>Магазин в Краснодаре <br>
+                            ул. Восточно- <br>
+                            Кругликовская, 86
+                        </p>
+                        <p class="text-[#5D6C7B]">+7 (499) 406 15 87</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="w-[80%] m-auto items-center justify-around md:flex hidden border-b-2  border-t-2 mt-[110px] border-[#5D6C7B] py-10">
+            <img src="./Kugoo.png" alt="" class="w-[116px] h-[43px]">
+
+            <div class="flex gap-5">
+                <img src="./Badge.png" alt="" class="w-[151px] h-[45px]">
+                <img src="./Badge (1).png" alt="" class="w-[134px] h-[45px]">
+            </div>
+
+            <div class="flex gap-5">
+                <img src="./Group 1701.png" alt="" class="w-[123px] h-[45px]">
+                <img src="./Group 1702.png" alt="" class="w-[123px] h-[45px]">
+                <img src="./Group 1704.png" alt="" class="w-[123px] h-[45px]">
+                <img src="./Group 1705.png" alt="" class="w-[123px] h-[45px]">
+            </div>
+        </div><br><br>
+
+        <div class="w-[80%] m-auto flex justify-between items-center pb-5">
+            <div class="hidden md:flex text-[#5D6C7B] gap-5">
+                <p>Реквизиты</p>
+                <p>Политика конфиденциальности</p>
+            </div>
+
+            <img src="./Frame 1709.png" alt="" class="w-[267px] h-[25px] md:inline hidden">
+
+            <div class="flex items-center gap-5">
+                <p>Online чат:</p>
+                <img src="./Frame 1691.png" alt="" class="w-[86px] h-[16px]">
             </div>
         </div>
     </div>

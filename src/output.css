@@ -615,6 +615,9 @@
   .gap-0 {
     gap: calc(var(--spacing) * 0);
   }
+  .gap-1\.5 {
+    gap: calc(var(--spacing) * 1.5);
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -797,6 +800,9 @@
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
+  }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
   }
   .pt-\[60px\] {
     padding-top: 60px;

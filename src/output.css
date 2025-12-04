@@ -7,7 +7,12 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-blue-50: oklch(97% 0.014 254.604);
+    --color-blue-100: oklch(93.2% 0.032 255.585);
+    --color-blue-200: oklch(88.2% 0.059 254.128);
+    --color-blue-300: oklch(80.9% 0.105 251.813);
     --color-purple-500: oklch(62.7% 0.265 303.9);
+    --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-black: #000;
     --color-white: #fff;
@@ -222,6 +227,9 @@
   .m-auto {
     margin: auto;
   }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
@@ -231,6 +239,12 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
+  .mr-5 {
+    margin-right: calc(var(--spacing) * 5);
+  }
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
   }
@@ -239,6 +253,18 @@
   }
   .mb-30 {
     margin-bottom: calc(var(--spacing) * 30);
+  }
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
+  }
+  .ml-100 {
+    margin-left: calc(var(--spacing) * 100);
+  }
+  .ml-130 {
+    margin-left: calc(var(--spacing) * 130);
+  }
+  .ml-140 {
+    margin-left: calc(var(--spacing) * 140);
   }
   .flex {
     display: flex;
@@ -293,6 +319,12 @@
   }
   .w-53 {
     width: calc(var(--spacing) * 53);
+  }
+  .w-60 {
+    width: calc(var(--spacing) * 60);
+  }
+  .w-70 {
+    width: calc(var(--spacing) * 70);
   }
   .w-100 {
     width: calc(var(--spacing) * 100);
@@ -405,6 +437,9 @@
   .border-\[\#6F73EE\] {
     border-color: #6F73EE;
   }
+  .border-gray-400 {
+    border-color: var(--color-gray-400);
+  }
   .bg-\[\#6F73EE\] {
     background-color: #6F73EE;
   }
@@ -431,6 +466,18 @@
   }
   .bg-black {
     background-color: var(--color-black);
+  }
+  .bg-blue-50 {
+    background-color: var(--color-blue-50);
+  }
+  .bg-blue-100 {
+    background-color: var(--color-blue-100);
+  }
+  .bg-blue-200 {
+    background-color: var(--color-blue-200);
+  }
+  .bg-blue-300 {
+    background-color: var(--color-blue-300);
   }
   .bg-purple-500 {
     background-color: var(--color-purple-500);

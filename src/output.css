@@ -195,6 +195,9 @@
   .mt-\[35px\] {
     margin-top: 35px;
   }
+  .mt-\[43px\] {
+    margin-top: 43px;
+  }
   .mt-\[50px\] {
     margin-top: 50px;
   }
@@ -285,6 +288,9 @@
   .h-\[45px\] {
     height: 45px;
   }
+  .h-\[46px\] {
+    height: 46px;
+  }
   .h-\[48px\] {
     height: 48px;
   }
@@ -305,6 +311,9 @@
   }
   .h-\[300px\] {
     height: 300px;
+  }
+  .h-\[350px\] {
+    height: 350px;
   }
   .h-\[400px\] {
     height: 400px;
@@ -327,6 +336,12 @@
   .h-\[470px\] {
     height: 470px;
   }
+  .h-\[480px\] {
+    height: 480px;
+  }
+  .h-\[485px\] {
+    height: 485px;
+  }
   .h-\[500px\] {
     height: 500px;
   }
@@ -348,14 +363,26 @@
   .w-80 {
     width: calc(var(--spacing) * 80);
   }
+  .w-\[\%\] {
+    width: %;
+  }
+  .w-\[\/\] {
+    width: /;
+  }
   .w-\[0px\] {
     width: 0px;
   }
   .w-\[1px\] {
     width: 1px;
   }
+  .w-\[2\%\] {
+    width: 2%;
+  }
   .w-\[3px\] {
     width: 3px;
+  }
+  .w-\[4\] {
+    width: 4;
   }
   .w-\[11\] {
     width: 11;
@@ -378,6 +405,9 @@
   .w-\[20px\] {
     width: 20px;
   }
+  .w-\[28\%\] {
+    width: 28%;
+  }
   .w-\[30\%\] {
     width: 30%;
   }
@@ -387,8 +417,20 @@
   .w-\[32\%\] {
     width: 32%;
   }
+  .w-\[35\%\] {
+    width: 35%;
+  }
+  .w-\[35\] {
+    width: 35;
+  }
+  .w-\[36\%\] {
+    width: 36%;
+  }
   .w-\[40px\] {
     width: 40px;
+  }
+  .w-\[46px\] {
+    width: 46px;
   }
   .w-\[48\%\] {
     width: 48%;
@@ -474,11 +516,38 @@
   .w-\[250px\] {
     width: 250px;
   }
+  .w-\[300\] {
+    width: 300;
+  }
+  .w-\[300pc\] {
+    width: 300pc;
+  }
+  .w-\[300px\] {
+    width: 300px;
+  }
   .w-\[350px\] {
     width: 350px;
   }
+  .w-\[400px\] {
+    width: 400px;
+  }
+  .w-\[430px\] {
+    width: 430px;
+  }
   .w-\[442px\] {
     width: 442px;
+  }
+  .w-\[450px\] {
+    width: 450px;
+  }
+  .w-\[485\] {
+    width: 485;
+  }
+  .w-\[485px\] {
+    width: 485px;
+  }
+  .w-\[485зч\] {
+    width: 485зч;
   }
   .w-\[520px\] {
     width: 520px;
@@ -515,6 +584,9 @@
   }
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));

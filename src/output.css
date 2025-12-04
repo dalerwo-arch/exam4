@@ -252,11 +252,17 @@
   .mb-\[6px\] {
     margin-bottom: 6px;
   }
+  .mb-\[11px\] {
+    margin-bottom: 11px;
+  }
   .mb-\[14px\] {
     margin-bottom: 14px;
   }
   .mb-\[15px\] {
     margin-bottom: 15px;
+  }
+  .mb-\[18px\] {
+    margin-bottom: 18px;
   }
   .mb-\[25px\] {
     margin-bottom: 25px;
@@ -284,6 +290,9 @@
   }
   .mb-\[57px\] {
     margin-bottom: 57px;
+  }
+  .mb-\[60px\] {
+    margin-bottom: 60px;
   }
   .mb-\[100\] {
     margin-bottom: 100;
@@ -504,6 +513,9 @@
   .grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
+  .items-baseline-last {
+    align-items: last baseline;
+  }
   .items-center {
     align-items: center;
   }
@@ -549,6 +561,12 @@
   .gap-30 {
     gap: calc(var(--spacing) * 30);
   }
+  .gap-\[25px\] {
+    gap: 25px;
+  }
+  .gap-\[26\] {
+    gap: 26;
+  }
   .gap-\[30px\] {
     gap: 30px;
   }
@@ -560,6 +578,9 @@
   }
   .gap-\[626px\] {
     gap: 626px;
+  }
+  .gap-\[px\] {
+    gap: px;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -831,6 +852,9 @@
   .text-\[12\] {
     color: 12;
   }
+  .text-\[14\] {
+    color: 14;
+  }
   .text-\[16\] {
     color: 16;
   }
@@ -839,6 +863,12 @@
   }
   .text-\[25\] {
     color: 25;
+  }
+  .text-\[35\] {
+    color: 35;
+  }
+  .text-\[35зч\] {
+    color: 35зч;
   }
   .text-\[whi\] {
     color: whi;

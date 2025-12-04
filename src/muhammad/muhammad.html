@@ -1,63 +1,89 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../output.css">
 </head>
 <body>
     <div class="main1">
-        <div class="m1-1 flex justify-around items-center">
-            <div class="flex items-center gap-5">
+        <div class="m1-1 flex justify-around items-center pt-3">
+            <div class="flex items-center gap-5 text-gray-500">
                 <p>Сервис</p>
                 <p>Сотрудничество</p>
                 <p>Заказать звонок</p>
-                <img src="../muhammad/imgm/Frame 1691.png" alt="">
+                <img src="../muhammad/imgs/Frame 1691.png" alt="">
             </div>
             <div class="flex items-center gap-2">
                 <b>+7 (800) 505-54-61</b>
-                <img src="../muhammad/imgm/Group 1659.png" alt="">
+                <img src="../muhammad/imgs/Group 1659.png" alt="">
             </div>
         </div>
-        <div class="m1-2">
-            <img src="../muhammad/imgm/Kugoo.png" alt="">
-            <button><img src="../muhammad/imgm/default2.png" alt=""> Каталог</button>
-            <div>
+        <div class="m1-2 flex justify-center gap-20 items-center mt-5">
+            <img src="../muhammad/imgs/Kugoo.png" alt="">
+            <button class="bg-[#6F73EE] text-white w-30 h-10 rounded-xl active:bg-gray-500">Каталог</button>
+            <div class="border border-[#6F73EE] flex justify-between items-center w-100 h-10 rounded-xl">
                 <div>
-                <select>
+                <select class="bg-[#F4F7FB] p-1 rounded-xl">
                     <option>Везде</option>
                     <option>Везде</option>
                     <option>Везде</option>
                 </select>
-                <input type="text" placeholder="Искать самокат KUGO">
+                <input class="outline-none pl-5" type="text" placeholder="Искать самокат KUGO">
                 </div>
                 <div>
-                <img class="bg-purple-500 w-30" src="../muhammad/imgm/Search.png" alt="">
+                <img class="bg-[#6F73EE] p-3 rounded-tr-xl rounded-br-xl" src="../muhammad/imgs/Search.png" alt="">
                 </div>
             </div>
-            <div>
-                <img src="../muhammad/imgm/balance 2.png" alt="">
-                <img src="../muhammad/imgm/Heart.png" alt="">
-                <div>
-                    <img src="../muhammad/imgm/shopping-cart 2.png" alt="">
+            <div class="flex items-center gap-5">
+                <img src="../muhammad/imgs/balance 2.png" alt="">
+                <img src="../muhammad/imgs/Heart.png" alt="">
+                <div class="flex items-center gap-1">
+                    <img src="../muhammad/imgs/shopping-cart 2.png" alt="">
                     <p>Корзина</p>
                 </div>
             </div>
         </div>
-        <div class="m1-3">
+        <div class="m1-3 flex justify-center items-center gap-20 bg-[#F4F7FB] mt-5 pt-4 pb-4">
             <p>О магазине</p>
-            <div>
+            <div class="flex items-center gap-5">
             <p>Доставка и оплата</p>
-            <p>Доступна рассрочка</p>
+            <p class="bg-[#6F73EE] text-white rounded-xl p-1">Доступна рассрочка</p>
             </div>
             <p>Тест-драйв</p>
             <p>Блог</p>
             <p>Контакты</p>
-            <div>
+            <div class="flex items-center gap-2">
             <p>Акции</p>
-            <img src="../muhammad/imgm/Group 150.png" alt="">
+            <img src="../muhammad/imgs/Group 150.png" alt="">
             </div>
         </div>
     </div>
+
+    <div class="main2 bg-[#F3A712] text-white flex items-center w-[95%] m-auto rounded-3xl mt-20 mb-20 pt-10 pb-10">
+        <div class="pl-5 pt-5 pb-5">
+            <h1 class="text-5xl">Ремонт и обслуживание <br> товаров Kugoo Kirin</h1>
+            <p class="pt-3 pb-10">в фирменных сервисых центрах</p>
+            <div class="flex items-center gap-5">
+                <div class="flex items-center gap-2">
+                    <img class="bg-[#FFFFFF33] p-3 rounded-xl" src="../muhammad/imgm/pin 1.png" alt="">
+                    <p>Сервисные центры в Москве, <br> Санкт-Петербурге и Краснодаре</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img class="bg-[#FFFFFF33] p-3 rounded-xl" src="../muhammad/imgm/shield 1.png" alt="">
+                    <p>Гарантия 14 дней <br> на ремонт</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img class="bg-[#FFFFFF33] p-3 rounded-xl" src="../muhammad/imgm/Vector.png" alt="">
+                    <p>Всегда в наличии оригинальные запчасти <br> от производителя</p>
+                </div>
+            </div>
+            <button class="bg-white mt-10 text-[#F3A712] w-40 h-10 rounded-xl active:bg-gray-500">Записаться</button>
+        </div>
+        <div>
+            <img class="w-170 absolute left-165 top-68" src="../muhammad/imgm/img1.png" alt="">
+        </div>
+    </div>
 </body>
-</html>
+</html> 

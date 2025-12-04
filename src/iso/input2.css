@@ -4,7 +4,7 @@
     padding-left: 135px;
     padding-bottom: 100px;
     background-repeat: no-repeat;
-    margin-left: 20px;
+    margin-left: 160px;
 }
 
 .background2 {
@@ -20,4 +20,26 @@
     padding-left: 40px;
     padding-top: 32px;
     padding-bottom: 33px;
+}
+
+
+@media (max-width: 500px) {
+    .background1 {
+        padding-left: 40px;
+        padding-bottom: 0px;
+        margin-left: 0;
+        background-color: #6F73EE;
+    }
+    .background2 {
+        padding-left: 20px;
+        background-position: center;
+        
+    }
+
+    .background3 {
+        padding-left: 20px;
+        background-position: center;
+
+    }
+
 }
